@@ -133,7 +133,7 @@ services:
           traefik.http.middlewares.wwwtohttps.redirectregex.permanent: true
           traefik.http.routers.block-scout.entrypoints: "https"
           traefik.http.routers.block-scout.middlewares: "default@file"
-          traefik.http.routers.block-scout.rule: "Host(`${DOMAIN}`) || Host(`www.${DOMAIN}`)"
+          traefik.http.routers.block-scout.rule: "Host(`explorer.lekan.network`)"
           traefik.http.routers.block-scout.tls.certresolver: "letsEncrypt"
           traefik.http.services.block-scout.loadbalancer.server.port: 80
           traefik.http.services.block-scout.loadbalancer.sticky.cookie.httpOnly: "true"
