@@ -55,7 +55,7 @@ services:
         ETHEREUM_JSONRPC_HTTP_URL: http://158.247.232.167:8545/
         ETHEREUM_JSONRPC_TRACE_URL: http://158.247.232.167:8545/
         ETHEREUM_JSONRPC_WS_URL: ws://158.247.232.167:8545/
-        CHAIN_ID: '1337'
+        CHAIN_ID: '9090'
 
   visualizer:
     extends:
